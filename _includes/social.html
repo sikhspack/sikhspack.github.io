@@ -1,0 +1,19 @@
+<div class="social">
+	<h4>
+    {% if site.email %}
+      <a href="mailto:{{ site.email}}"><i class="fa fa-2x fa-envelope"></i></a>
+    {% endif %}
+    {% if site.facebook %}
+	  <a href="https://facebook.com/{{ site.facebook }}"><i class="fa fa-2x fa-facebook"></i></a>
+    {% endif %}
+    {% if site.instagram %}
+	  <a href="https://instagram.com/{{ site.instagram }}"><i class="fa fa-2x fa-instagram"></i></a>
+    {% endif %}
+    {% if site.twitter %}
+      <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
+    {% endif %}
+    {% if site.mobile %}
+	  <a href="tel:+91{{ site.mobile }}"><i class="fa fa-2x fa-phone"></i></a>
+    {% endif %}
+	</h4>
+</div>

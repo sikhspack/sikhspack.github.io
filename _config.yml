@@ -1,0 +1,30 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://http://127.0.0.1:3000
+baseurl: /
+title: Sikhs Pack
+author: Daman Singh
+description: Certified Trainer & Fitness Author
+avatar: profile.jpg
+email: singhdamanfitness@gmail.com
+#facebook: SinghDamanPT
+instagram: sikhspack
+#mobile: xxxxxxxxxxx   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+#disqus: username
+#google_analytics: UA-69391421-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
